@@ -1,6 +1,9 @@
+# Importing required libraries
+
 import requests
 from bs4 import BeautifulSoup
 
+#Url to scrap
 url = "http://quotes.toscrape.com/"
 response = requests.get(url)
 

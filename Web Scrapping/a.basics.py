@@ -1,5 +1,7 @@
+# Importing required libraries
 import requests
 
+# url through which to scrap
 url = "http://quotes.toscrape.com/"
 response = requests.get(url)
 
